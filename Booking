@@ -1,0 +1,82 @@
+<html>
+<body bgcolor="#E0E0E0">
+<img src="book.jpg" align="left" width="140" height="60" border="0">
+<form method=post action="/cgi-bin/booking.cgi"> &nbsp &nbsp &nbsp &nbsp
+<input type="text" size="80" width="20" height="50">
+<input type="image" src="search.png" height="25" width="60"><br><br>
+<a href="#"><img src="Untitled.png" height="40"></a><a href="#"><img src="movie.png" height="40"></a><a href="#"><img src="theatre.png" height="40"></a><a href="#"><img src="offer.png" height="40"></a><a href="#"><img src="sign.png" height="40" ></a><a href="#"><img src="register.png" height="40" ></a>
+<table align="left" border="0" cellpadding="2" celspacing="0" width="25%">
+<td  align="left">
+<head><b><u><font face="Times New Roman" Size="6" color="gray">Book Tickets Now</font></u></b></head><br><br><br>
+
+<style type="text/css">
+option {
+background: #E0E0E0;
+color: #000000;
+highlight: #C6C4BD;
+}
+</style>
+<select>
+<option>Select movies</option>
+<option>Holiday: A Soldier is never Off duty</option>
+<option>X-Men</option>
+<option>Maleficent</option>
+<option>Edge of tommorow</option>
+</select><br><br><br>
+<select>
+<option>Select Timings &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</option>
+<option>10:30 am</option>
+<option>12:15 pm</option>
+<option>4:45 pm</option>
+<option>8:30 pm</option>
+</select><br><br><br>
+<select>
+<option>Select movie hall &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp </option>
+<option>Cinepolis</option>
+<option>Big Cinemas</option>
+<option>Cineplex</option>
+<option>PVR</option>
+</select><br><br>
+<head><b><u><font face="Times New Roman" Size="6" color="gray">Instant Log In</font></u></b></head><br><br>
+<form method=post action="/cgi-bin/booking.cgi">
+Username: <input name="Username" value="" size="20"><br><br>
+Password: <input name="Password" type="password" size="20"><br><br>
+<a href="#"><input type="image" src="log.png" height="35" width="70"></a><br><br><br>
+</form>
+<head><b><u><font face="Times New Roman" Size="6" color="gray">Movies On Show</font></u></b></head><br><br>
+<head><b><font face="Times New Roman" Size="4">In Mangalore</font></b></head><br><br>
+<ul>
+<li>X-Men</li>
+<li>Maleficent</li>
+<li>Edge of tomorrow</li>
+<li>Holiday: A Soldier is never Off duty</li>
+</ul>
+<head><b><font face="Times New Roman" Size="4">In India</font></b></head><br><br>
+<ul>
+<li>X-Men</li>
+<li>Maleficent</li>
+<li>Edge of tomorrow</li>
+<li>Holiday: A Soldier is never Off duty</li>
+<li>Fault in your stars</li>
+<li>CityLights</li>
+<li>Filmistaan</li>
+
+</td>
+<table align="center" border="0" cellpadding="2" cellspacing="0" width="70%">
+<td  align="center">
+<img src="mal.jpg" height="300" width="1000">
+<br><br>
+</td>
+<table align="center" border="0" cellpadding="2" cellspacing="0" width="70%">
+<td  align="center"><img src="now.png" height="40" width="1000"><br><br><br>
+<marquee loop="-1" scrollamount="4" width="100%"><img src="fault.jpg" height="120" width="120"> &nbsp &nbsp <img src="edge.jpg" height="120" width="120"> &nbsp &nbsp <img src="mal.jpg" height="120" width="120">&nbsp &nbsp <img src="hol.jpg" height="120" width="120"> &nbsp &nbsp <img src="fil.jpg" height="120" width="120"></marquee>
+<img src="come.png" width="1000"><br><br><br>
+<marquee loop="-1" scrollamount="4"width="100%"><img src="vil.jpg" height="120" width="120"> &nbsp &nbsp <img src="18.11.jpg" height="120" width="120"> &nbsp &nbsp <img src="how.jpg" height="120" width="120">&nbsp &nbsp <img src="villa.jpg" height="120" width="120"></marquee>
+<a href="#"><img src="rev.png" height="40"></a><a href="#"><img src="re.png" height="40"></a><a href="#"><img src="fe.png" height="40"></a><a href="#"><img src="us.png" height="40"></a>
+
+
+</td>
+
+</form>
+</body>
+</html>
